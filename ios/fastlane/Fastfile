@@ -1,0 +1,197 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Build ipa file"
+  lane :build do
+    # Update the Xcode first
+    build_output = sh "cd ../.. && flutter build ios --obfuscate --split-debug-info=build/app/outputs/symbols --flavor production"
+
+    if build_output.include? "error"
+      UI.user_error!("Flutter build ios #{flavor} fail")
+    end
+
+    # the it prompts for Username+Login, the save on MacOS Keychain, not here
+
+     get_certificates(
+       development: true,
+       username: "wannadzmi7@gmail.com",
+       team_id: "D93T95NM9B",
+       output_path: "signing"
+     )  
+     sigh(
+       app_identifier: "my.com.etiqa.ease",
+       team_id: "D93T95NM9B",
+       filename: "../signing/Ease_Distribution.mobileprovision",
+       platform: "ios"
+     )
+    
+    cocoapods(use_bundle_exec: false)
+
+    gym(
+      export_options: {
+        scheme: "Runner",
+        method: "enterprise"
+      },
+      output_directory: "./build",
+      output_name: "EASE"
+    )
+  end
+
+  desc "Build ipa file for development"
+  lane :builddev do
+    # Update the Xcode first
+    build_output = sh "cd ../.. && flutter build ios --obfuscate --split-debug-info=build/app/outputs/symbols --flavor development"
+
+    if build_output.include? "error"
+      UI.user_error!("Flutter build ios #{flavor} fail")
+    end
+
+    # the it prompts for Username+Login, the save on MacOS Keychain, not here
+
+     get_certificates(
+       development: true,
+       username: "wannadzmi7@gmail.com",
+       team_id: "D93T95NM9B",
+       output_path: "../signing"
+     )  
+     sigh(
+       app_identifier: "my.com.etiqa.ease.dev",
+       team_id: "D93T95NM9B",
+       filename: "../signing/Ease_Distribution_Dev.mobileprovision",
+       platform: "ios"
+     )
+    
+    cocoapods(use_bundle_exec: false)
+
+    gym(
+      export_options: {
+        scheme: "Runner",
+        method: "enterprise"
+      },
+      output_directory: "./build",
+      output_name: "EASE_dev"
+    )
+  end
+
+  desc "Build and Release ipa file to firebase"
+  lane :release do
+    # Update the Xcode first
+    build_output = sh "cd ../.. && flutter build ios --obfuscate --split-debug-info=build/app/outputs/symbols --release --flavor production"
+
+    if build_output.include? "error"
+      UI.user_error!("Flutter build ios #{flavor} fail")
+    end
+
+    # the it prompts for Username+Login, the save on MacOS Keychain, not here
+
+     get_certificates(
+       development: true,
+       username: "wannadzmi7@gmail.com",
+       team_id: "D93T95NM9B",
+       output_path: "../signing"
+     )  
+     sigh(
+       app_identifier: "my.com.etiqa.ease",
+       team_id: "D93T95NM9B",
+       filename: "../signing/Ease_Distribution.mobileprovision",
+       platform: "ios"
+     )
+    
+    cocoapods(use_bundle_exec: false)
+
+    gym(
+      export_options: {
+        scheme: "Runner",
+        method: "enterprise"
+      },
+      output_directory: "./build",
+      output_name: "EASE"
+    )
+
+    firebase_app_distribution(
+      app: "1:188829032005:ios:16c104e6991b48824a4d2c",
+      groups: "nb-uat",
+      release_notes_file: "release-notes.txt",
+      firebase_cli_path: "/usr/local/bin/firebase",
+      ipa_path: "build/EASE.ipa"
+    )
+
+    upload_symbols_to_crashlytics
+  end
+
+  desc "Build and Release development ipa file to firebase"
+  lane :releasedev do
+    # Update the Xcode first
+    build_output = sh "cd ../.. && flutter build ios --obfuscate --split-debug-info=build/app/outputs/symbols --release --flavor development"
+
+    if build_output.include? "error"
+      UI.user_error!("Flutter build ios #{flavor} fail")
+    end
+
+    # the it prompts for Username+Login, the save on MacOS Keychain, not here
+
+     get_certificates(
+       development: true,
+       username: "wannadzmi7@gmail.com",
+       team_id: "D93T95NM9B",
+       output_path: "../signing"
+     )  
+     sigh(
+       app_identifier: "my.com.etiqa.ease.dev",
+       team_id: "D93T95NM9B",
+       filename: "../signing/Ease_Distribution.mobileprovision",
+       platform: "ios"
+     )
+    
+    cocoapods(use_bundle_exec: false)
+
+    gym(
+      export_options: {
+        scheme: "Runner",
+        method: "enterprise"
+      },
+      output_directory: "./build",
+      output_name: "EASE_dev"
+    )
+
+    firebase_app_distribution(
+      app: "1:188829032005:ios:16c104e6991b48824a4d2c",
+      groups: "nb-uat",
+      release_notes_file: "release-notes.txt",
+      firebase_cli_path: "/usr/local/bin/firebase",
+      ipa_path: "build/EASE_dev.ipa"
+    )
+  end
+
+  desc "Release ipa to firebase"
+  lane :releaseipa do
+    firebase_app_distribution(
+      app: "1:188829032005:ios:16c104e6991b48824a4d2c",
+      groups: "nb-uat",
+      release_notes_file: "release-notes.txt",
+      firebase_cli_path: "/usr/local/bin/firebase",
+      ipa_path: "build/EASE.ipa"
+    )
+  end
+
+  desc "Upload symbols to Crashlytics"
+  lane :toCrashlytics do
+    upload_symbols_to_crashlytics
+  end
+
+end

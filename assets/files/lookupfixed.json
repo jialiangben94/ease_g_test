@@ -1,0 +1,294 @@
+{
+  "ProductSpec": [
+    {
+      "ProdCode": "PCWI01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWI01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWI03",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": false,
+        "IsProductLimit": true
+      }
+    },
+    {
+      "ProdCode": "WANA",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "WANB",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWE03",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWE02",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWA01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWA02",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWA03",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWA04",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCWA01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCEE01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCEL01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCTA01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCHI01",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCHI03",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTHI01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCHI02",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCHI04",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": false,
+        "IsProductLimit": true
+      }
+    },
+    {
+      "ProdCode": "PTHI02",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCJI01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCJI02",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": false,
+        "IsProductLimit": true
+      }
+    },
+    {
+      "ProdCode": "PTJI01",
+      "IsUWProduct": false,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": true,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PCWI03",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": false,
+        "IsProductLimit": true
+      }
+    },
+    {
+      "ProdCode": "PTWE04",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTWE05",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    },
+    {
+      "ProdCode": "PTCA02",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": false,
+        "IsProductLimit": true
+      }
+    },
+    {
+      "ProdCode": "PCWA02",
+      "IsUWProduct": true,
+      "RuleSetup": {
+        "IsEnabled": true,
+        "IsROP": false,
+        "IsGA": true,
+        "IsProductLimit": false
+      }
+    }
+  ]
+}

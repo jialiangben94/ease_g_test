@@ -1,0 +1,11 @@
+
+
+Basic Understanding for Choose Product page
+
+1. The main page for this folder is Choose Product. The widget for this page is located inside widget folder.
+2. State for 'Choose Product' page is being handled by Choose Product Bloc, located inside the bloc folder.
+3. For every error message (the snackbar), we collect the error from Choose Product Bloc.
+4. Then these error will be called by Choose Product page. There are 3 state for error :
+    i) ChooseProductError - Meaning error(s) is being thrown. (Might be VPMS)
+   ii) ChooseProductFieldRequired - Meaning not exactly an error. But VPMS send a message indicating a filed is required.
+   iii) ChooseProductErrorDialog -  Meaning error(s) is being thrown. (Might be VPMS). Instead of displaying snackbar, dialog will be displayed instead

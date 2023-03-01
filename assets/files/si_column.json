@@ -1,0 +1,2123 @@
+{
+  "securelink_label": [
+    {
+      "type": 2,
+      "label": "Premium Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Component Premium"
+        },
+        {
+          "type": 3,
+          "label": "Enricher Premium"
+        },
+        {
+          "type": 3,
+          "label": "Regular Top-Up Premium"
+        },
+        {
+          "type": 3,
+          "label": "Total Premium"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Premium",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Component Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Enricher Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Regular Top-Up Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Insurance Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic"
+        },
+        {
+          "type": 3,
+          "label": "Total Unit Deducting Riders"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charge"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Insured (RM)"
+    },
+    {
+      "type": 1,
+      "label": "Loyalty Bonus (Beginning of Year) (RM)"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Death / TPD Benefit2 (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "IL Accelerated Critical Illness"
+    },
+    {
+      "type": 1,
+      "label": "IL Medical Plus"
+    },
+    {
+      "type": 1,
+      "label": "IL Waiver of Premium for Critical Illness"
+    },
+    {
+      "type": 1,
+      "label": "IL Waiver of Premium for TPD"
+    },
+    {
+      "type": 1,
+      "label": "IL Payor Waiver of Premium (Spouse)"
+    },
+    {
+      "type": 1,
+      "label": "IL Payor Waiver of Premium (Juvenile)"
+    },
+    {
+      "type": 1,
+      "label": "IL Accidental Benefit"
+    },
+    {
+      "type": 1,
+      "label": "IL CI Plus"
+    },
+    {
+      "type": 1,
+      "label": "IL Female Essential"
+    },
+    {
+      "type": 1,
+      "label": "IL Cancer Shield"
+    },
+    {
+      "type": 1,
+      "label": "IL Hospital Cash Benefit"
+    },
+    {
+      "type": 1,
+      "label": "IL Junior Critical Illness"
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "megalink_label": [
+    {
+      "type": 2,
+      "label": "Premium Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Component Premium"
+        },
+        {
+          "type": 3,
+          "label": "Enricher Premium"
+        },
+        {
+          "type": 3,
+          "label": "Regular Top-Up Premium"
+        },
+        {
+          "type": 3,
+          "label": "Total Premium"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Premium",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Component Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Enricher Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Regular Top-Up Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Insurance Charges (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Unit Deducting Riders",
+          "child": [
+            {
+              "type": 5,
+              "label": "Critical Illness Cover"
+            },
+            {
+              "type": 5,
+              "label": "Waiver of Premium for Critical Illness"
+            },
+            {
+              "type": 5,
+              "label": "Payor Waiver of Premium (Spouse)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charge"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Insured (RM)"
+    },
+    {
+      "type": 1,
+      "label": "Loyalty Bonus (Beginning of Year) (RM)"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Death / TPD Benefit2 (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Additional Accidental Death Benefit (RM)"
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "megaplus_label": [
+    {
+      "type": 2,
+      "label": "Premium Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Component Premium"
+        },
+        {
+          "type": 3,
+          "label": "Enricher Premium"
+        },
+        {
+          "type": 3,
+          "label": "Top-Up Premium"
+        },
+        {
+          "type": 3,
+          "label": "Total Premium"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Premium",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Component Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Enricher Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Top-Up Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Insurance Charges (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Unit Deducting Rider(s)",
+          "child": [
+            {
+              "type": 5,
+              "label": "Accidental Death Benefit"
+            },
+            {
+              "type": 5,
+              "label": "Critical Illness Cover"
+            },
+            {
+              "type": 5,
+              "label": "Waiver of Premium for Critical Illness"
+            },
+            {
+              "type": 5,
+              "label": "Payor Waiver of Premium (Spouse)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charge"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Insured (RM)"
+    },
+    {
+      "type": 1,
+      "label": "Loyalty Bonus (RM) (Beginning of Year)"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Death & TPD Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "eliteplus_takafulink_label": [
+    {
+      "type": 2,
+      "label": "Contribution Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Component Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Enricher Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Regular Top-Up Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Total Contribution"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Contribution",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Component Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Enricher Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Regular Top-Up Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Tabarru' Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic"
+        },
+        {
+          "type": 3,
+          "label": "Total Unit Deducting Riders"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charge"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Covered (RM)"
+    },
+    {
+      "type": 1,
+      "label": "Loyalty Bonus (Beginning of Year) (RM)"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Death / TPD Benefit2 (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Rider(s) Tabarru' Charges",
+      "child": [
+        {
+          "type": 5,
+          "label": "Takafulink Accelerated Critical Illness"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Medical Plus"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Waiver of Contribution for Critical Illness"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Waiver of Contribution for TPD"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Payor Waiver of Contribution (Spouse)"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Payor Waiver of Contribution (Juvenile)"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Accidental Benefit"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Accidental Indemnity Benefit"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Hospital Cash Benefit"
+        },
+        {
+          "type": 5,
+          "label": "Takafulink Junior Star Critical Illness"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "maxipro_label": [
+    {
+      "type": 2,
+      "label": "Premium Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Premium"
+        },
+        {
+          "type": 3,
+          "label": "Top-Up Premium"
+        },
+        {
+          "type": 3,
+          "label": "Total Premium (Excluding IL Savings Growth Rider Premium)"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Premium (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Regular Top-Up Premium",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total Premium (Excluding IL Savings Growth Rider Premium)",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Insurance Charges (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Unit Deducting Riders",
+          "child": [
+            {
+              "type": 5,
+              "label": "Waiver of Premium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charge"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Insured (RM)"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Non-Guaranteed Death & TPD Benefits2 (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Natural Death & TPD Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Accidental Death & TPD Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Total Premium Paid (RM)"
+    },
+    {
+      "type": 2,
+      "label": "Guaranteed + Non Guaranteed (RM)",
+      "child": [
+        {
+          "type": 4,
+          "label": "Natural Death & TPD Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Accidental Death Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Accidental TPD Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Surrender / Maturity Benefit",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Guaranteed Cash Payment"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 5,
+          "label": "RM"
+        },
+        {
+          "type": 5,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "maxipro_gsc_label": [
+    {
+      "type": 1,
+      "label": "IL Savings Growth Rider Premium Paid (RM)"
+    },
+    {
+      "type": 2,
+      "label": "Guranteed Benefits (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Cash Payment"
+        },
+        {
+          "type": 3,
+          "label": "Total Cash Payment Paid-to-date"
+        },
+        {
+          "type": 3,
+          "label": "Surrender Value (after Cash Payment)"
+        },
+        {
+          "type": 3,
+          "label": "Natural Death & TPD Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Accidental Death Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Accidental TPD Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Maturity Benefit"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Rider Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Policy Year"
+    }
+  ],
+  "etiqalifesecure_label": [
+    {
+      "type": 2,
+      "label": "GUARANTEED (Set A)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Premium Paid in the Year"
+        },
+        {
+          "type": 3,
+          "label": "Basic Cash Value / Maturity Value at Year End"
+        },
+        {
+          "type": 3,
+          "label": "Basic Policy Death Benefit"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Insured Age at End of Year"
+    }
+  ],
+  "etiqalifesecure_tcimr_label": [
+    {
+      "type": 2,
+      "label": "GUARANTEED (Set B)",
+      "child": [
+        {
+          "type": 3,
+          "label": "PCIR Premium Paid at End of Year"
+        },
+        {
+          "type": 3,
+          "label": "Critical Illness Benefit"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Insured Age at End of Year"
+    }
+  ],
+  "hadiyyahtakafulink_label": [
+    {
+      "type": 2,
+      "label": "Contribution Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Regular Top up Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Total contribution"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Contribution",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Contribution",
+          "child": [
+            {
+              "type": 4,
+              "label": "RM"
+            },
+            {
+              "type": 4,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Regular Top up Contribution",
+          "child": [
+            {
+              "type": 4,
+              "label": "RM"
+            },
+            {
+              "type": 4,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Total contribution",
+          "child": [
+            {
+              "type": 4,
+              "label": "RM"
+            },
+            {
+              "type": 4,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Tabarru Charges",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Rider",
+          "child": [
+            {
+              "type": 4,
+              "label": "Takaful Waiver of Contribution for Critical Illness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charges"
+        },
+        {
+          "type": 3,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Fund Management Fee",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Sum Covered"
+    },
+    {
+      "type": 2,
+      "label": "Non-Guaranteed Account Value",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Non-Guaranteed Surrender Value",
+      "child": [
+        {
+          "type": 3,
+          "label": "Scenario X"
+        },
+        {
+          "type": 3,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Non Guaranteed Benefits",
+      "child": [
+        {
+          "type": 3,
+          "label": "Natural Death&TPD Benefit",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Natural Death&TPD Benefit",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Guaranteed + Non Guaranteed (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Natural Death & TPD Benefit",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Accidental Death & TPD Benefit",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Surrender / Maturity Value",
+          "child": [
+            {
+              "type": 4,
+              "label": "Scenario X"
+            },
+            {
+              "type": 4,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Cash Payment"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Certificate Year"
+    }
+  ],
+  "hadiyyahtakafulink_gsc_label": [
+    {
+      "type": 1,
+      "label": "Contribution Paid"
+    },
+    {
+      "type": 2,
+      "label": "Guranteed Benefits (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Cash Payment"
+        },
+        {
+          "type": 3,
+          "label": "Total Cash Payment"
+        },
+        {
+          "type": 3,
+          "label": "Surrender Value"
+        },
+        {
+          "type": 3,
+          "label": "Natural Death &TPD"
+        },
+        {
+          "type": 3,
+          "label": "Accidental Death &TPD"
+        },
+        {
+          "type": 3,
+          "label": "Maturity Benefit"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 3,
+          "label": "RM"
+        },
+        {
+          "type": 3,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Insured Age at End of Year"
+    }
+  ],
+  "mahabbah_label": [
+    {
+      "type": 2,
+      "label": "Contribution Paid (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Component Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Enricher Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Top up Contribution"
+        },
+        {
+          "type": 3,
+          "label": "Total contribution"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Allocated Contribution",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic Component Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Enricher Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Top up Contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Total contribution",
+          "child": [
+            {
+              "type": 5,
+              "label": "RM"
+            },
+            {
+              "type": 5,
+              "label": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Tabarru Charges",
+      "child": [
+        {
+          "type": 4,
+          "label": "Basic",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "label": "Unit Deducting Riders",
+          "child": [
+            {
+              "type": 5,
+              "label": "Critical Illness Cover-i"
+            },
+            {
+              "type": 5,
+              "label": "Takaful Waiver of Contribution for Critical Illness"
+            },
+            {
+              "type": 5,
+              "label": "Takaful Payor Waiver of Contribution (Spouse)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Other Charges",
+      "child": [
+        {
+          "type": 3,
+          "label": "Administration Charges"
+        },
+        {
+          "type": 4,
+          "label": "Surrender Charge",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Fund Management Fee",
+      "child": [
+        {
+          "type": 4,
+          "label": "Scenario X"
+        },
+        {
+          "type": 4,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Basic Sum Covered"
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Account Value",
+      "child": [
+        {
+          "type": 4,
+          "label": "Scenario X"
+        },
+        {
+          "type": 4,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Non-Guaranteed Surrender / Maturity Benefit",
+      "child": [
+        {
+          "type": 4,
+          "label": "Scenario X"
+        },
+        {
+          "type": 4,
+          "label": "Scenario Y"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Non Guaranteed Benefit",
+      "child": [
+        {
+          "type": 4,
+          "label": "Death & TPD Benefits",
+          "child": [
+            {
+              "type": 5,
+              "label": "Scenario X"
+            },
+            {
+              "type": 5,
+              "label": "Scenario Y"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "label": "Additional Accidental Death Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Compassionate Benefit"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "label": "Commission",
+      "child": [
+        {
+          "type": 4,
+          "label": "RM"
+        },
+        {
+          "type": 4,
+          "label": "%"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Age at End of Certificate Year"
+    }
+  ],
+  "enrichlifeplan_label": [
+    {
+      "type": 2,
+      "label": "GUARANTEED (Set A)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Basic Premium Paid in the Year"
+        },
+        {
+          "type": 3,
+          "label": "Basic Surrender Value / Maturity Value at Year End"
+        },
+        {
+          "type": 3,
+          "label": "Basic Policy Death Benefit"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Insured Age at End of Year"
+    }
+  ],
+  "enrichlifeplan_tcimr_label": [
+    {
+      "type": 2,
+      "label": "GUARANTEED (Set B)",
+      "child": [
+        {
+          "type": 3,
+          "label": "LTR & PCIR Premium Paid In the Year"
+        },
+        {
+          "type": 3,
+          "label": "Death Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Critical Illness Benefit"
+        },
+        {
+          "type": 3,
+          "label": "Surrender Value at Year End"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "NON-GUARANTEED (Set C)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Medical Plus Premium In the Year"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Insured Age at End of Year"
+    }
+  ],
+  "tg_aspire_label": [
+    {
+      "type": 1,
+      "label": "Premium Paid Each Year (RM)"
+    },
+    {
+      "type": 6,
+      "label": "Survival Benefit (RM)",
+      "child": [
+        {
+          "type": 7,
+          "label": "Guaranteed",
+          "child": [
+            {
+              "label": "Cash Payments Each Year"
+            }
+          ]
+        },
+        {
+          "type": 8,
+          "label": "Non-Guaranteed",
+          "child": [
+            {
+              "label": "Scenario A",
+              "child": [
+                {
+                  "label": "Reversionary Bonus Each Year"
+                }
+              ]
+            },
+            {
+              "label": "Scenario B",
+              "child": [
+                {
+                  "label": "Reversionary Bonus Each Year"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "label": "Total Premium Paid To Date (RM)"
+    },
+    {
+      "type": 1,
+      "label": "Total Direct Commission To Date (RM)"
+    },
+    {
+      "type": 2,
+      "label": "Surrender Value (RM)",
+      "child": [
+        {
+          "type": 3,
+          "label": "Guaranteed"
+        },
+        {
+          "type": 4,
+          "label": "Non-Guaranteed",
+          "child": [
+            {
+              "type": 3,
+              "label": "Scenario A"
+            },
+            {
+              "type": 3,
+              "label": "Scenario B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "label": "Death/TPD Benefits",
+      "child": [
+        {
+          "type": 3,
+          "label": "Guaranteed"
+        },
+        {
+          "type": 4,
+          "label": "Non-Guaranteed",
+          "child": [
+            {
+              "type": 3,
+              "label": "Scenario A"
+            },
+            {
+              "type": 3,
+              "label": "Scenario B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

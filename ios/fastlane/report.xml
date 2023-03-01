@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00017">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: cd ../.. &amp;&amp; flutter build ios --obfuscate --split-debug-info=build/app/outputs/symbols --flavor development" time="40.079445">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: get_certificates" time="4.884082">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: sigh" time="2.968654">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: cocoapods" time="3.237774">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: gym" time="141.164985">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
